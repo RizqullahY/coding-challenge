@@ -12,6 +12,4 @@ git commit -m "Automatic commit: $(date /t) %time%"
 git push origin master
 
 :: Close the cmd
-echo Done .
-pause
 exit
