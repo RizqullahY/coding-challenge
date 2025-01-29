@@ -16,11 +16,11 @@ class Solution(object):
                 kembalikan index angka hasil pengurangan, 
                 index angka saat ini yang mengurangi target dan menghasilkan hasil pengurangan
                 '''
-            print(numToIndex)
+            # print(numToIndex)
             numToIndex[num] = i
 
 
 solution = Solution()
 
-# print(solution.twoSum([3,2,4], 6))  # Output: [1,2]
-# print(solution.twoSum([3,3], 6))  # Output: [0,1]
+print(solution.twoSum([3,2,4], 6))  # Output: [1,2]
+print(solution.twoSum([3,3], 6))  # Output: [0,1]

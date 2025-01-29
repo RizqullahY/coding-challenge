@@ -1,27 +1,26 @@
-from typing import List
+# Solution 1
+
+# from typing import List
 
 
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        nums.sort()
-        for i in range(len(nums) - 1):
-            print(i)
-            if nums[i] == nums[i + 1]:
-                return True
-        return False
+# class Solution:
+#     def containsDuplicate(self, nums: List[int]) -> bool:
+#         nums.sort()
+#         # Iterasi (length / jumlah dari item list) - 1 
+#         for i in range(len(nums) - 1):
+#             # Bila angka dengan index sekarang sama dengan index setelahnya
+#             if nums[i] == nums[i + 1]:
+#                 # Stop function dan kembalikan nilai true
+#                 return True
+#         return False
 
 
-sl = Solution()
-print(sl.containsDuplicate([1, 2, 3, 4, 5]))
-print(sl.containsDuplicate([1, 2, 3, 4, 1]))
+# sl = Solution()
+# print(sl.containsDuplicate([1, 2, 3, 4, 5]))
+# print(sl.containsDuplicate([1, 2, 3, 4, 1]))
 
 
 '''
-cara cek duplikasi value pada sebuah array python, beri sedikit gambaraan tanpa code
-
-
-Tentu, mari kita bahas cara mengecek duplikasi nilai dalam sebuah array Python tanpa menggunakan kode terlebih dahulu.
-
 Bayangkan sebuah keranjang buah:
 
 Keranjang: Ini adalah array kita. Di dalamnya, kita memiliki berbagai jenis buah (nilai).
@@ -52,12 +51,6 @@ Apakah Anda ingin melihat contoh kode Python untuk melakukan pengecekan duplikas
 
 Atau, apakah Anda punya pertanyaan lain terkait topik ini?
 
-
-
-
-
-
-contoh code nya
 
 
 Tentu, mari kita lihat beberapa contoh kode Python untuk mengecek duplikasi nilai dalam sebuah array:
