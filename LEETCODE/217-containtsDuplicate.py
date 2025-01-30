@@ -1,24 +1,46 @@
-# Solution 1
+from typing import List
 
-# from typing import List
+# LEETCODE
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        nums.sort()
+        # Iterasi (length / jumlah dari item list) - 1 
+        for i in range(len(nums) - 1):
+            # Bila angka dengan index sekarang sama dengan index setelahnya
+            if nums[i] == nums[i + 1]:
+                # Stop function dan kembalikan nilai true
+                return True
+        return False
+    
 
 
-# class Solution:
-#     def containsDuplicate(self, nums: List[int]) -> bool:
-#         nums.sort()
-#         # Iterasi (length / jumlah dari item list) - 1 
-#         for i in range(len(nums) - 1):
-#             # Bila angka dengan index sekarang sama dengan index setelahnya
-#             if nums[i] == nums[i + 1]:
-#                 # Stop function dan kembalikan nilai true
-#                 return True
-#         return False
+    def containsDupliacateWithSet(self, nums):
+        # Set : mengambil data yang berbeda jika dalam suatu list terdapat data yang sama
+        return len(set(nums)) != len(nums)
+    
 
 
-# sl = Solution()
+    def containsDupliacateWithDictionary(self, nums):
+        seen = {}
+        for i in nums:
+          print(i)
+          if i in seen:
+              print(i)
+              print(seen)
+              return True
+          seen[i] = True
+        return False
+                
+
+sl = Solution()
 # print(sl.containsDuplicate([1, 2, 3, 4, 5]))
 # print(sl.containsDuplicate([1, 2, 3, 4, 1]))
 
+# print(sl.containsDupliacateWithSet([1, 2, 3, 4, 5]))
+# print(sl.containsDupliacateWithSet([1, 2, 3, 4, 1]))
+
+print(sl.containsDupliacateWithDictionary([1, 2, 3, 4, 9]))
+print(sl.containsDupliacateWithDictionary([1, 2, 3, 4, 1]))
 
 '''
 Bayangkan sebuah keranjang buah:
@@ -47,37 +69,7 @@ Mencegah kesalahan: Duplikasi data bisa menyebabkan hasil analisis yang salah.
 Memperbaiki kualitas data: Menghapus duplikasi adalah salah satu langkah penting dalam membersihkan data.
 Nanti, kita akan bahas lebih lanjut dengan contoh kode Python.
 
-Apakah Anda ingin melihat contoh kode Python untuk melakukan pengecekan duplikasi?
 
-Atau, apakah Anda punya pertanyaan lain terkait topik ini?
-
-
-
-Tentu, mari kita lihat beberapa contoh kode Python untuk mengecek duplikasi nilai dalam sebuah array:
-
-1. Menggunakan set:
-
-Python
-
-def cek_duplikasi_set(arr):
-  """Mengecek duplikasi dalam array menggunakan set.
-
-  Args:
-    arr: Array yang akan diperiksa.
-
-  Returns:
-    True jika ada duplikasi, False jika tidak ada.
-  """
-
-  return len(set(arr)) != len(arr)
-
-# Contoh penggunaan
-my_array = [1, 2, 3, 2, 5]
-print(cek_duplikasi_set(my_array))  # Output: True
-Penjelasan:
-
-Set: Sebuah struktur data yang tidak mengizinkan elemen duplikat.
-Cara kerja: Dengan mengubah array menjadi set, elemen duplikat akan otomatis dihilangkan. Jika panjang set setelah konversi berbeda dengan panjang array asli, berarti ada duplikasi.
 2. Menggunakan dictionary:
 
 Python
@@ -139,24 +131,5 @@ Set: Paling efisien untuk kasus umum.
 Dictionary: Fleksibel dan bisa digunakan untuk menyimpan informasi tambahan tentang elemen.
 Pengurutan: Cocok jika kita ingin mengurutkan array terlebih dahulu untuk keperluan lain.
 Penting:
-
-Efisiensi: Metode menggunakan set biasanya paling efisien.
-Kegunaan lain: Selain mengecek duplikasi, metode ini bisa digunakan untuk mendapatkan nilai unik, menghitung frekuensi kemunculan, dan lain-lain.
-Pilih metode yang paling sesuai dengan kebutuhan dan kompleksitas masalah Anda.
-
-Apakah Anda ingin melihat contoh lain atau memiliki pertanyaan lebih lanjut?
-
-
-
-
-
-
-
-
-
-
-
-Gemini dapat membuat kesalahan, jadi perik
-
 
 '''
