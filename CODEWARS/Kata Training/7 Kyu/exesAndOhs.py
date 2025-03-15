@@ -3,6 +3,7 @@
 def xo(s):
     s = list(s.lower())
     # print(s)
+    # MENGHITUNG JUMLAH KARAKTER DALAM SEBUAH LIST!
     count_x = s.count('x')
     count_o = s.count('o')
     # print(count_o)
