@@ -18,4 +18,4 @@ def maskify(cc):
     
 
 print(maskify('123'))
-print(maskify('ARSILAROSYIDAH'))
+print(maskify('Anugerah putra permana'))
