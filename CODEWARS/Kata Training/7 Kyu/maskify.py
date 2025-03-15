@@ -4,10 +4,15 @@
 def maskify(cc):
     if len(str(cc)) >= 4:
         for i in range(len(cc)):
+            result = []
             if(i >= (len(cc) - 4)):
-                print(i, cc[i])
+                print(cc[i], end='')
+                result.append(cc[i])
             else:
-                print('#')
+                print('#', end='')
+                result.append('#')
+        
+        return result
     else:
         return cc
     
