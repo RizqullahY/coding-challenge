@@ -3,16 +3,16 @@
 # return masked string
 def maskify(cc):
     if len(str(cc)) >= 4:
+        result = [] # DILUAR FOR LOOP DONG
         for i in range(len(cc)):
-            result = []
             if(i >= (len(cc) - 4)):
-                print(cc[i], end='')
+                # print(cc[i], end='')
                 result.append(cc[i])
             else:
-                print('#', end='')
+                # print('#', end='')
                 result.append('#')
         
-        return result
+        return ''.join(result)
     else:
         return cc
     
