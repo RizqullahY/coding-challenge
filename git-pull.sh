@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -n $1 ]; then
+if [ "$1" == "-a" ]; then
   git add .
   git stash
   git pull origin master
