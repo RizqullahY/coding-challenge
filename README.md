@@ -11,9 +11,9 @@ This repository contains solutions to various coding challenges that I have solv
 |   |-- hard/
 |-- codewars/
 |   |-- kata-training/
-|	|	|--6kyu/
-|	|	|--7kyu/
-|	|	|--8kyu/
+|	|-- 6kyu/
+|	|-- 7kyu/
+|	|-- 8kyu/
 |   |-- tantangan-coding-wpu/
 |-- others/
 |-- temp/
