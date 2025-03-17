@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [-n "$1"]; then
+if [ -n "$1"]; then
   commit_message = "$1"
 else
   date_now=$(date +"%Y-%m-%d %H:%M")
