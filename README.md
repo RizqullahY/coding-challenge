@@ -35,6 +35,8 @@ To simplify repository management, the following Bash scripts are available:
 ### `git-push.sh`
 
 **Usage:**
+
+Default with datetime "Automatic commit: 2025-03-17 12:07"
 ```sh
  ./git-push.sh
 ```
@@ -43,6 +45,20 @@ With commit message
  ./git-push.sh "With commit message"
 ```
 
+---
+
+### `git-pull.sh`
+
+**Usage:**
+
+Default 
+```sh
+ ./git-pull.sh
+```
+With stash changes
+```sh
+ ./git-push.sh -s
+```
 
 ## Contributions
 If you would like to contribute or provide suggestions, feel free to submit a pull request or open an issue in this repository.
