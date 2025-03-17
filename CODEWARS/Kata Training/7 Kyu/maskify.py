@@ -5,7 +5,7 @@ def maskify(cc):
     if len(str(cc)) >= 4:
         result = [] # DILUAR FOR LOOP DONG
         for i in range(len(cc)):
-            if(i >= (len(cc) - 4)):
+            if i >= (len(cc) - 4):
                 # print(cc[i], end='')
                 result.append(cc[i])
             else:
