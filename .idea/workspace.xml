@@ -5,11 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a1dfbbd-73de-4288-9837-725fd5b89495" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/maskify.py" beforeDir="false" afterPath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/maskify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/5 Kyu/urlDomain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/distancesFromAverage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/exesAndOhs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/findTheDivisors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/getTheMiddleChar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/maskify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/printerErrors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/7 Kyu/reverseWord.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/1-cockroachSpeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/10-returnDay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/2-evenOdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/3-sumArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/4.replaceVowelWith!.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/5-multiplyDigit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/6-leapYear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/7-flick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/8-helloNameOrWorld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/9-differenceAge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/friends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/isToday.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/myLanguageSkill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/shortLongShort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/simpleCalculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/surfaceVolume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Kata Training/8 Kyu/surfaceVolume.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/1-Grow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/10-stringToArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/11-rPs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/12-arrayPlusArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/13-Point.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/14-getGrade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/15-sumArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/16-getAverage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/17-areaOrPerimeter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/18-greet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/19-sumMixArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/2-reverseSeq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/20-Feast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/21-rentalCarCost.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/22-removeExlamationMarks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/23-monkeyCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/24-quarterOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/25-doubleChar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/26-trafficLight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/27-setAlarm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/3-isHeSurvive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/4-smashSentence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/5-zeroFuel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/6-DnaToRna.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/7-countByX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/8-countSheep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODEWARS/Tantangan Coding - WPU/9-minMax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/1-twoSum.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1-twoSum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/1-twoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1-twoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/13-romanToInteger.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/13-romanToInteger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/2-addTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/2-addTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/217-containtsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/217-containtsDuplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/9-palindromNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/9-palindromNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LEETCODE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/git-push.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

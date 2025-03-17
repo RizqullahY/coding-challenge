@@ -1,6 +1,6 @@
 from typing import List
 
-# LEETCODE
+# leetcode
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums.sort()
