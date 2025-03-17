@@ -32,6 +32,12 @@ To simplify repository management, the following Bash scripts are available:
 | `git-push.sh` | Adds, commits, and pushes changes to the repository with an automatic commit message. |
 | `git-pull.sh` | Pulls the latest changes from the repository.  
 
+## Make Executable
+```bash
+ chmod +x git-push.sh
+ chmod +x git-pull.sh
+```
+
 ### `git-push.sh`
 
 **Usage:**
