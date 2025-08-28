@@ -1,74 +1,30 @@
-# Coding Challenges Repository
+# 🧑‍💻
 
-This repository contains solutions to various coding challenges that I have solved on platforms such as LeetCode, CodeWars, and others.
-
-## Repository Structure
-```
-/coding-challenges/
-|-- leetcode/
-|   |-- easy/
-|   |-- medium/
-|   |-- hard/
-|-- codewars/
-|   |-- kata-training/
-|	|-- 6kyu/
-|	|-- 7kyu/
-|	|-- 8kyu/
-|   |-- tantangan-coding-wpu/
-|-- others/
-|-- temp/
-|-- git-push.sh
-|-- git-pull.sh
-```
-
-## How to Use
-Each folder contains solutions for programming challenges from the respective platform. The classification is based on difficulty levels.
-
-## Provided Scripts
-To simplify repository management, the following Bash scripts are available:
-
-| Script Name   | Description                                                                           |
-|---------------|---------------------------------------------------------------------------------------|
-| `git-push.sh` | Adds, commits, and pushes changes to the repository with an automatic commit message. |
-| `git-pull.sh` | Pulls the latest changes from the repository.  
-
-## Make Executable
-```bash
- chmod +x git-push.sh
- chmod +x git-pull.sh
-```
-
-### `git-push.sh`
-
-**Usage:**
-
-Default with datetime "Automatic commit: 2025-03-17 12:07"
-```sh
- ./git-push.sh
-```
-With commit message
-```sh
- ./git-push.sh "With commit message"
-```
+## 🔧 
+| Logo | Link |
+|-------|------|
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/3d1c3f7b-630d-4b20-85af-6815323fd2ff" /> | [**Carbon**](https://carbon.now.sh/) |
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/c33e0d60-171c-460b-9e26-27b253491553" /> | [**Programiz Online Compiler**](https://www.programiz.com/python-programming/online-compiler/) |
 
 ---
 
-### `git-pull.sh`
+## 🏆 
+| Logo | Link |
+|-------|------|
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/55534617-3f2e-450e-a71b-555cca732bbd" /> | [**LeetCode**](https://leetcode.com/problemset/) |
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/b6667e28-25f3-471d-8274-5d249a19dbea" /> | [**FreeCodeCamp**](https://www.freecodecamp.org/learn/daily-coding-challenge/archive) |
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/2fe86620-2a76-4426-85e7-ecf85a9903ed" /> | [**HackerRank**](https://www.hackerrank.com/) |
+| <img width="40" alt="image" src="https://github.com/user-attachments/assets/b8d4ebdf-fac2-4a7c-828c-1c209ac27068" /> | [**Codewars**](https://www.codewars.com/dashboard) |
 
-**Usage:**
 
-Default 
-```sh
- ./git-pull.sh
-```
-With stash changes
-```sh
- ./git-push.sh -s
-```
 
-## Contributions
-If you would like to contribute or provide suggestions, feel free to submit a pull request or open an issue in this repository.
 
----
-Happy coding! 🚀
+
+
+
+
+
+
+
+
 
